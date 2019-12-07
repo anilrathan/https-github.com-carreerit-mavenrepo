@@ -27,16 +27,11 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-releases/</url>
+            <id>Myrepo</id>
+            <name>Myrepo</name>
+            <url>http://15.206.91.178:8085/repository/Myrepo/</url>
         </repository>
-        <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://172.31.2.113:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+     </distributionManagement>
   <dependencies>
   	<dependency>
   		<groupId>javax.servlet</groupId>
